@@ -1,5 +1,5 @@
-import { Currency, Ether, Token, TradeType } from "@uniswap/sdk-core";
 import { BigNumber, constants, ethers } from "ethers";
+import { Currency, Ether, Token, TradeType } from "smartswap-sdk-core";
 
 import { DutchOrderInfo } from "../order";
 

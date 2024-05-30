@@ -1,5 +1,5 @@
-import { ChainId, Currency } from "@uniswap/sdk-core";
 import { constants } from "ethers";
+import { ChainId, Currency } from "smartswap-sdk-core";
 
 export enum NativeAssets {
   MATIC = "MATIC",

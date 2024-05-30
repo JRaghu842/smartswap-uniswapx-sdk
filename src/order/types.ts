@@ -1,9 +1,9 @@
 import { SignatureLike } from "@ethersproject/bytes";
+import { BigNumber } from "ethers";
 import {
   PermitBatchTransferFromData,
   PermitTransferFromData,
-} from "@uniswap/permit2-sdk";
-import { BigNumber } from "ethers";
+} from "smartswap-permit2-sdk";
 
 // General interface implemented by off chain orders
 export interface OffChainOrder {

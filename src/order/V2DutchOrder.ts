@@ -1,11 +1,11 @@
 import { SignatureLike } from "@ethersproject/bytes";
+import { BigNumber, ethers } from "ethers";
 import {
   PermitTransferFrom,
   PermitTransferFromData,
   SignatureTransfer,
   Witness,
-} from "@uniswap/permit2-sdk";
-import { BigNumber, ethers } from "ethers";
+} from "smartswap-permit2-sdk";
 
 import { getPermit2 } from "../utils";
 import { ResolvedUniswapXOrder } from "../utils/OrderQuoter";
